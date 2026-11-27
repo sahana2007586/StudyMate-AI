@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudyMate AI - intelligent learning and examination preparation for Indian students.">
+    <title>StudyMate AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a class="brand" href="{{ url_for('main.home') }}" aria-label="StudyMate AI home">
+                <span class="brand-mark">SM</span>
+                <span>StudyMate <strong>AI</strong></span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow">Learn smarter. Prepare confidently.</span>
+                    <h1>Your intelligent study companion</h1>
+                    <p>
+                        StudyMate AI helps Indian students understand concepts, organize learning,
+                        prepare for examinations and build consistent study habits.
+                    </p>
+                    <a class="primary-button" href="{{ url_for('assistant.page') }}">Try the AI Study Assistant</a>
+                </div>
+
+                <div class="hero-card" aria-label="StudyMate AI welcome">
+                    <div class="card-icon" aria-hidden="true">&#10022;</div>
+                    <h2>Everything for effective learning</h2>
+                    <ul>
+                        <li>Personalized academic guidance</li>
+                        <li>Subject and syllabus management</li>
+                        <li>Smart examination preparation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="welcome" id="welcome">
+            <div class="container">
+                <span class="eyebrow">Welcome to StudyMate AI</span>
+                <h2>Focused learning, designed around you</h2>
+                <p>
+                    From school and PUC to undergraduate and postgraduate studies,
+                    StudyMate AI will provide clear tools and guidance for every stage of your journey.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 StudyMate AI. Built for Indian learners.</p>
+        </div>
+    </footer>
+</body>
+</html>
