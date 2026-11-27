@@ -122,6 +122,7 @@
         input.value = "";
         input.style.height = "auto";
         starterPrompts.hidden = true;
+        layout.classList.add("chat-active");
         addMessage("user", content);
         conversation.push({ role: "user", content });
 
@@ -192,6 +193,7 @@
         conversation.length = 0;
         messagesElement.replaceChildren();
         starterPrompts.hidden = false;
+     layout.classList.remove("chat-active");
         addMessage(
             "assistant",
             "Hi! I can explain a topic, create notes or practice questions, and help you learn programming. What would you like to work on?",

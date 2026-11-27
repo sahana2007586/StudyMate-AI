@@ -187,3 +187,13 @@ First-Year Engineering Student | Artificial Intelligence & Machine Learning
 ---
 
 ⭐ If you find this project interesting, consider giving the repository a star!
+## 🖥️ Application Screenshots
+
+### Homepage
+![StudyMate AI Homepage](screenshots/homepage.png)
+
+### AI Study Assistant
+![AI Assistant](screenshots/assistant.png)
+
+### AI-Generated Response
+![AI Response](screenshots/ai-response.png)

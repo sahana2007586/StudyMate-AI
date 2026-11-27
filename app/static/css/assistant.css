@@ -543,3 +543,7 @@
         font-size: 0.62rem;
     }
 }
+.assistant-layout.chat-active .chat-heading,
+.assistant-layout.chat-active .starter-prompts {
+    display: none;
+}
